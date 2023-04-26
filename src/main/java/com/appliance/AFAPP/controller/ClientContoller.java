@@ -7,11 +7,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 
 @RestController
 @RequestMapping("/C")
 public class ClientContoller {
+    private static final Logger logger = LoggerFactory.getLogger(ClientContoller.class);
     @Autowired
     public  IClientService clientService;
     //@CrossOrigin(origins = "http://localhost:4200")
@@ -24,7 +27,9 @@ public class ClientContoller {
     @CrossOrigin(origins = "http://localhost:4200")
     @GetMapping(path="/clients")
     public List<ClientDto> read() {
+        logger.info("les client vont etre sasie!");
         return clientService.findAll();
+
     }
 
     //@CrossOrigin(origins = "http://localhost:4200")

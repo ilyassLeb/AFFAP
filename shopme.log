@@ -13382,3 +13382,41 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184) ~[spring-boot-2.7.5.jar:2.7.5]
 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-2.7.5.jar:2.7.5]
 	... 13 more
+2023-04-26 12:38:11,561 [restartedMain] INFO  c.a.A.AfappApplication                             - Starting AfappApplication using Java 11 on DESKTOP-9SRAC85 with PID 2628 (C:\Users\AS\Desktop\AFAPP\target\classes started by AS in C:\Users\AS\Desktop\AFAPP) 
+2023-04-26 12:38:11,601 [restartedMain] INFO  c.a.A.AfappApplication                             - No active profile set, falling back to 1 default profile: "default" 
+2023-04-26 12:38:11,757 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2023-04-26 12:38:11,758 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2023-04-26 12:38:14,046 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2023-04-26 12:38:14,312 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 248 ms. Found 8 JPA repository interfaces. 
+2023-04-26 12:38:15,743 [restartedMain] INFO  o.e.j.u.log                                        - Logging initialized @8095ms to org.eclipse.jetty.util.log.Slf4jLog 
+2023-04-26 12:38:17,256 [restartedMain] INFO  o.s.b.w.e.j.JettyServletWebServerFactory           - Server initialized with port: 8081 
+2023-04-26 12:38:17,305 [restartedMain] INFO  o.e.j.s.Server                                     - jetty-9.4.49.v20220914; built: 2022-09-14T01:07:36.601Z; git: 4231a3b2e4cb8548a412a789936d640a97b1aa0a; jvm 11+28 
+2023-04-26 12:38:17,370 [restartedMain] INFO  o.e.j.s.h.C.application                            - Initializing Spring embedded WebApplicationContext 
+2023-04-26 12:38:17,371 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 5610 ms 
+2023-04-26 12:38:17,797 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2023-04-26 12:38:17,919 [restartedMain] INFO  o.h.Version                                        - HHH000412: Hibernate ORM core version 5.6.12.Final 
+2023-04-26 12:38:18,330 [restartedMain] INFO  o.h.a.c.Version                                    - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2023-04-26 12:38:18,622 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Starting... 
+2023-04-26 12:38:19,051 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Start completed. 
+2023-04-26 12:38:19,090 [restartedMain] INFO  o.h.d.Dialect                                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect 
+2023-04-26 12:38:20,949 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2023-04-26 12:38:20,964 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2023-04-26 12:38:21,386 [restartedMain] INFO  o.e.j.s.session                                    - DefaultSessionIdManager workerName=node0 
+2023-04-26 12:38:21,387 [restartedMain] INFO  o.e.j.s.session                                    - No SessionScavenger set, using defaults 
+2023-04-26 12:38:21,390 [restartedMain] INFO  o.e.j.s.session                                    - node0 Scavenging every 600000ms 
+2023-04-26 12:38:21,449 [restartedMain] INFO  o.e.j.s.h.ContextHandler                           - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@563f9db7{application,/,[file:///C:/Users/AS/AppData/Local/Temp/jetty-docbase.8081.11497346712087733490/],AVAILABLE} 
+2023-04-26 12:38:21,452 [restartedMain] INFO  o.e.j.s.Server                                     - Started @13805ms 
+2023-04-26 12:38:22,512 [restartedMain] INFO  o.d.c.GlobalSettings                               - Trying to find Dozer configuration file: dozer.properties 
+2023-04-26 12:38:22,527 [restartedMain] WARN  o.d.c.GlobalSettings                               - Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties. 
+2023-04-26 12:38:22,533 [restartedMain] INFO  o.d.DozerInitializer                               - Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain 
+2023-04-26 12:38:22,538 [restartedMain] INFO  o.d.j.JMXPlatformImpl                              - Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server 
+2023-04-26 12:38:22,540 [restartedMain] INFO  o.d.j.JMXPlatformImpl                              - Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server 
+2023-04-26 12:38:22,542 [restartedMain] INFO  o.d.DozerBeanMapper                                - Initializing a new instance of dozer bean mapper. 
+2023-04-26 12:38:23,835 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain                 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@f8e394f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6331d8df, org.springframework.security.web.context.SecurityContextPersistenceFilter@1bf8ece5, org.springframework.security.web.header.HeaderWriterFilter@5d580920, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@1800e807, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@24d3e022, org.springframework.security.web.authentication.logout.LogoutFilter@57d4c06e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@12026db0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@194b4781, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@3fef6f1a, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@20b0f830, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@26d70f32, org.springframework.security.web.session.SessionManagementFilter@4f0e527c, org.springframework.security.web.access.ExceptionTranslationFilter@6a52c8b6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3f4cca63] 
+2023-04-26 12:38:24,725 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729 
+2023-04-26 12:38:24,808 [restartedMain] INFO  o.e.j.s.h.C.application                            - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2023-04-26 12:38:24,809 [restartedMain] INFO  o.s.w.s.DispatcherServlet                          - Initializing Servlet 'dispatcherServlet' 
+2023-04-26 12:38:24,810 [restartedMain] INFO  o.s.w.s.DispatcherServlet                          - Completed initialization in 1 ms 
+2023-04-26 12:38:24,841 [restartedMain] INFO  o.e.j.s.AbstractConnector                          - Started ServerConnector@69ba0bf1{HTTP/1.1, (http/1.1)}{0.0.0.0:8081} 
+2023-04-26 12:38:24,842 [restartedMain] INFO  o.s.b.w.e.j.JettyWebServer                         - Jetty started on port(s) 8081 (http/1.1) with context path '/' 
+2023-04-26 12:38:24,876 [restartedMain] INFO  c.a.A.AfappApplication                             - Started AfappApplication in 14.332 seconds (JVM running for 17.231) 
